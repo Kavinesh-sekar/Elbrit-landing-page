@@ -1,0 +1,51 @@
+.featuresContainer {
+    background-color: #004254;
+    color: white;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 30px;
+    padding: 2rem 3rem;
+    max-width: 1000px;
+  }
+  .featuresGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  }
+  .featureItem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+  }
+  .iconWrapper {
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  }
+  .featureTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  } 
+  .featureDescription {
+    font-size: 1rem;
+    color: #d0d0d0;
+  }
+
+  @media only screen and (max-width:789px) {
+    .featuresGrid{
+      display: grid;
+      grid-template-columns: auto auto ;
+      gap: 20px;
+    }
+    
+  }
+  

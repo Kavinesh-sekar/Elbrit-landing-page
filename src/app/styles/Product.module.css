@@ -1,0 +1,134 @@
+.prodContainer{
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%; 
+    padding-top: 70px;
+    /* text-align: center; */
+   
+}
+.FirstRow{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    width: 80%;
+
+}
+.rowSecond{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    width: 80%;
+}
+.vitC{
+    background-image: url('../../../public/Images/h2-b1.jpg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardHead {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    /* line-height: 1.2; */
+}
+
+.cardDesc {
+    font-size: 14px;
+    margin: 5px 0;
+
+    /* margin: 5px 0; */
+}
+.cardBtn {
+    color: #007bff; /* Blue link-like color */
+    text-decoration: underline;
+    margin-top: 80px;
+    cursor: pointer;
+    font-size: 20px;
+    align-self: flex-start;;
+}
+.vitB{
+    background-image: url('../../../public/Images/bn2-2.jpg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.vitM{
+    background-image: url('../../../public/Images/bn2-3.jpg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.vitH{
+    background-image: url('../../../public/Images/bn2-5.jpg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.vitL{
+    background-image: url('../../../public/Images/bn2-4.jpg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.intro{
+    background-color: white;
+    width: 250px; /* Same width as the cards */
+    height: 150px; /* Same height as the cards */
+}
+
+@media only screen and (max-width: 768px) {
+
+.FirstRow, .rowSecond{
+    display: grid;
+    grid-template-columns: auto ;
+}
+
+}
